@@ -16,7 +16,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [angrop](https://github.com/angr/angrop)
 * [angr-management](https://github.com/angr/angr-management)
 
-## Blogs :newspaper:
+## Blogposts :newspaper:
 * [angr-blog](https://angr.io/)
 * [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/)
 
