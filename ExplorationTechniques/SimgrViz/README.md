@@ -1,0 +1,1 @@
+![Example of visualization in Gephi](./screenshot_1.PNG)
