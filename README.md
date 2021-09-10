@@ -22,6 +22,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [Angrop](https://github.com/angr/angrop) - Generate ropchains using angr and symbolic execution.
 * [Angr-management](https://github.com/angr/angr-management) - GUI for angr.
 * [Mechaphish](https://github.com/mechaphish) - AEG system for CGC.
+* [angr-static-analysis-for-vuzzer64](https://github.com/ash09/angr-static-analysis-for-vuzzer64) - angr-based static analysis module for Vuzzer.
 
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/) - Official angr blog.
