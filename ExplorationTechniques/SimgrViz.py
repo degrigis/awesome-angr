@@ -14,7 +14,7 @@ from networkx.drawing.nx_agraph import write_dot
 
 from shutil import which
 
-l = logging.getLogger("SimgrDebugger")
+l = logging.getLogger("SimgrViz")
 l.setLevel("INFO")
 
 WDIR = './'
