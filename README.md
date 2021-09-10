@@ -25,7 +25,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/)
 * [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/)
-
+* [shellphish-phrack](http://phrack.org/papers/cyber_grand_shellphish.html)
 
 ## Papers :page_with_curl:
 
@@ -33,11 +33,18 @@ Here a collection of papers based on the angr framework.
 
 | Year       | Paper     | 
 | :------------- | :----------: | 
+| 2021 | [Boosting symbolic execution via constraint solving time prediction (experience paper)](https://dl.acm.org/doi/10.1145/3460319.3464813)
 | 2020 | [Symbion: Interleaving Symbolic with Concrete Execution](https://sites.cs.ucsb.edu/~vigna/publications/2020_CNS_Symbion.pdf) |
 | 2020 | [KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware](https://www.badnack.it/static/papers/University/karonte.pdf) | 
 | 2020 | [Device-agnostic Firmware Execution is Possible: A Concolic Execution Approach for Peripheral Emulation](https://dl.acm.org/doi/10.1145/3427228.3427280) |
 | 2018 | [HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security](https://sites.cs.ucsb.edu/~chris/research/doc/usenix18_heaphopper.pdf)
+| 2017 | [Your Exploit is Mine: Automatic Shellcode Transplant for Remote Exploits](https://www.ieee-security.org/TC/SP2017/papers/579.pdf)
+| 2017 | [BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments](https://sites.cs.ucsb.edu/~vigna/publications/2017_NDSS_Boomerang.pdf)
+| 2017 | [Ramblr: Making Reassembly Great Again](https://sefcom.asu.edu/publications/ramblr-making-reassembly-great-again-ndss2017.pdf)
 | 2017 | [BootStomp: On the Security of Bootloaders in Mobile Devices](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-redini.pdf) |
+| 2016 | [SoK: (State of) The Art of War: Offensive Techniques in Binary Analysis](https://sites.cs.ucsb.edu/~vigna/publications/2016_SP_angrSoK.pdf)
+| 2016 | [Driller: Augmenting Fuzzing Through Selective Symbolic Execution](https://sites.cs.ucsb.edu/~chris/research/doc/ndss16_driller.pdf)
+| 2015 | [Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware](https://sites.cs.ucsb.edu/~chris/research/doc/ndss15_firmalice.pdf) |
 
 
 
