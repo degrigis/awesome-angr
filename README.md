@@ -21,6 +21,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [Syml](https://github.com/ucsb-seclab/syml) - Use ML to prioritize exploration of promising vulnerable paths.
 * [Angrop](https://github.com/angr/angrop) - Generate ropchains using angr and symbolic execution.
 * [Angr-management](https://github.com/angr/angr-management) - GUI for angr.
+* [Mechaphish](https://github.com/mechaphish) - AEG system for CGC.
 
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/) - Official angr blog.
