@@ -45,6 +45,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2017 | [BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments](https://sites.cs.ucsb.edu/~vigna/publications/2017_NDSS_Boomerang.pdf)
 | 2017 | [Ramblr: Making Reassembly Great Again](https://sefcom.asu.edu/publications/ramblr-making-reassembly-great-again-ndss2017.pdf)
 | 2017 | [BootStomp: On the Security of Bootloaders in Mobile Devices](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-redini.pdf) |
+| 2017 | [Piston: Uncooperative Remote Runtime Patching](https://sefcom.asu.edu/publications/piston-uncooperative-remote-runtime-patching-acsac2017.pdf)
 | 2016 | [SoK: (State of) The Art of War: Offensive Techniques in Binary Analysis](https://sites.cs.ucsb.edu/~vigna/publications/2016_SP_angrSoK.pdf)
 | 2016 | [Driller: Augmenting Fuzzing Through Selective Symbolic Execution](https://sites.cs.ucsb.edu/~chris/research/doc/ndss16_driller.pdf)
 | 2015 | [Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware](https://sites.cs.ucsb.edu/~chris/research/doc/ndss15_firmalice.pdf) |
