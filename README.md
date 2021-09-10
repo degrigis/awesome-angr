@@ -18,14 +18,14 @@ A collection of exploration techniques written by the community
 List of academic/not-acadamic projects based on angr which code is open source.
 
 * [Heaphopper](https://github.com/angr/heaphopper) - Apply symbolic execution to automatically verify security properties of most common heap libraries.
-* [Syml](https://github.com/ucsb-seclab/syml) - 
-* [Angrop](https://github.com/angr/angrop)
-* [Angr-management](https://github.com/angr/angr-management)
+* [Syml](https://github.com/ucsb-seclab/syml) - Use ML to prioritize exploration of promising vulnerable paths.
+* [Angrop](https://github.com/angr/angrop) - Generate ropchains using angr and symbolic execution.
+* [Angr-management](https://github.com/angr/angr-management) - GUI for angr.
 
 ## Blogposts :newspaper:
-* [angr-blog](https://angr.io/)
-* [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/)
-* [shellphish-phrack](http://phrack.org/papers/cyber_grand_shellphish.html)
+* [angr-blog](https://angr.io/) - Official angr blog.
+* [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/) - A walk-through the ReachingDefinition analysis built-in in angr.
+* [shellphish-phrack](http://phrack.org/papers/cyber_grand_shellphish.html) - Phrack article on [Mechaphish](https://github.com/mechaphish), the AEG system based on angr that got 3rd place at the CGC.
 
 ## Papers :page_with_curl:
 
