@@ -24,6 +24,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [Angr-management](https://github.com/angr/angr-management) - GUI for angr.
 * [Mechaphish](https://github.com/mechaphish) - AEG system for CGC.
 * [angr-static-analysis-for-vuzzer64](https://github.com/ash09/angr-static-analysis-for-vuzzer64) - angr-based static analysis module for Vuzzer.
+* [FirmXRay-angr](https://github.com/ucsb-seclab/monolithic-firmware-collection/tree/master/utils/firmxray) - An angr version of the base address detection analysis implemented in [FirmXRay](https://github.com/OSUSecLab/FirmXRay).
 
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/) - Official angr blog.
