@@ -18,6 +18,7 @@ A collection of exploration techniques written by the community
 List of academic/not-acadamic projects based on angr which code is open source.
 
 * [Heaphopper](https://github.com/angr/heaphopper) - Apply symbolic execution to automatically verify security properties of most common heap libraries.
+* [angr-cli](https://github.com/fmagin/angr-cli) - Command line interface for angr a la peda/GEF/pwndbg.
 * [Syml](https://github.com/ucsb-seclab/syml) - Use ML to prioritize exploration of promising vulnerable paths.
 * [Angrop](https://github.com/angr/angrop) - Generate ropchains using angr and symbolic execution.
 * [Angr-management](https://github.com/angr/angr-management) - GUI for angr.
