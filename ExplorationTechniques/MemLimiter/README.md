@@ -1,0 +1,1 @@
+The following ExplorationTechnique can be plugged into an instance of a SimulationManager to stop DSE when memory consumption hits critical levels.
