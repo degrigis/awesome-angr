@@ -1,2 +1,1 @@
 When the ExplosionDetector is plugged in a SimulationManager, it can be used to (1) trigger a timeout, (2) stop the execution when reaching a certain amount of generated SimState(s), and (3) nuking all the unconstrained SimState(s) in a SimulationManager.
-
