@@ -29,7 +29,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 
 ## Papers :page_with_curl:
 
-Here a collection of papers based on the angr framework.
+Here a collection of papers which used or whose project is based on the angr framework.
 
 | Year       | Paper     | 
 | :------------- | :----------: | 
