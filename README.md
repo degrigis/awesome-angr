@@ -41,6 +41,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2020 | [KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware](https://www.badnack.it/static/papers/University/karonte.pdf) | 
 | 2020 | [Device-agnostic Firmware Execution is Possible: A Concolic Execution Approach for Peripheral Emulation](https://dl.acm.org/doi/10.1145/3427228.3427280) |
 | 2019 | [BinTrimmer: Towards Static Binary Debloating Through Abstract Interpretation](https://sites.cs.ucsb.edu/~chris/research/doc/dimva19_bintrimmer.pdf)
+| 2019 | [Sleak: Automating Address Space Layout Derandomization](https://par.nsf.gov/servlets/purl/10155109)
 | 2018 | [HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security](https://sites.cs.ucsb.edu/~chris/research/doc/usenix18_heaphopper.pdf)
 | 2017 | [Your Exploit is Mine: Automatic Shellcode Transplant for Remote Exploits](https://www.ieee-security.org/TC/SP2017/papers/579.pdf)
 | 2017 | [BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments](https://sites.cs.ucsb.edu/~vigna/publications/2017_NDSS_Boomerang.pdf)
