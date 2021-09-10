@@ -4,17 +4,20 @@ A collection of resources/tools and analyses for the [angr](https://github.com/a
 
 
 ## Documentation 
-[docs.angr.op](https://docs.angr.io/)
-[angr.io](http://angr.io/api-doc/angr.html)
+* [docs.angr.op](https://docs.angr.io/)
+* [angr.io](http://angr.io/api-doc/angr.html)
 
 ## Projects 
-[heaphopper](https://github.com/angr/heaphopper)
-[syml](https://github.com/ucsb-seclab/syml)
-[angrop](https://github.com/angr/angrop)
-[angr-management](https://github.com/angr/angr-management)
+
+List of academic/not-acadamic project based on angr which code is open source.
+
+* [heaphopper](https://github.com/angr/heaphopper)
+* [syml](https://github.com/ucsb-seclab/syml)
+* [angrop](https://github.com/angr/angrop)
+* [angr-management](https://github.com/angr/angr-management)
 
 ## Blogs
-[angr-blog](https://angr.io/)
+* [angr-blog](https://angr.io/)
 
 
 ## Papers 
