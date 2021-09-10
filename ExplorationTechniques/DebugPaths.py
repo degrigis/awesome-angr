@@ -1,7 +1,5 @@
-#FIXME: ET should not be aware of other plugins (e.g., ozy_ana_vars), create callbacks instead.
 # pylint: disable=import-error, no-name-in-module
 import angr
-import cle
 import hashlib
 import os
 import logging
@@ -16,7 +14,7 @@ from networkx.drawing.nx_agraph import write_dot
 
 from shutil import which
 
-l = logging.getLogger("HealthAnalysis.DebugPaths")
+l = logging.getLogger("DebugPaths")
 l.setLevel("INFO")
 
 WDIR = './'
@@ -160,36 +158,10 @@ class SimgrDebugger(ExplorationTechnique):
         else:
             self._simgrG.add_node(sim_state_id, state_addr = hex(state.addr), path_exploration_id=state.globals["path_exploration_id"])
 
-        # These properties are peculiar of specific ETs that can be used or not.
-        if state.loop_state_vars.unstucked_loop:
-            self._simgrG.nodes[sim_state_id]["unstucked_loop"] = str(state.loop_state_vars.unstucked_loop)
-
-        if state.loop_state_vars.new_loop_discovered:
-            self._simgrG.nodes[sim_state_id]["new_loop_discovered"] = str(state.loop_state_vars.new_loop_discovered)
-
-        if state.loop_state_vars.current_loop:
-            curr_loop = state.loop_state_vars.current_loop[-1]
-            curr_loop_iterations = state.loop_state_vars.header_trip_counts[curr_loop[2]]
-            self._simgrG.nodes[sim_state_id]["curr_loop"] = "head: {} | tail: {} ".format(hex(curr_loop[0]),
-                                                                                            hex(curr_loop[1]))
-            self._simgrG.nodes[sim_state_id]["curr_loop_ite"] = curr_loop_iterations
-            self._simgrG.nodes[sim_state_id]["num_active_loops"] = str(len(state.loop_state_vars.current_loop))
-
-        if state.loop_state_vars.forced_path:
-            self._simgrG.nodes[sim_state_id]["forced_path"] = state.loop_state_vars.forced_path
-
         self._simgrG.nodes[sim_state_id]['jumpkind'] = state.history.jumpkind
 
         if state.loop_state_vars.loop_handler_check_loop:
             self._simgrG.nodes[sim_state_id]["loop_handler_check_loop"] = str(state.loop_state_vars.loop_handler_check_loop)
-
-        # The last time_path is related to this state.
-        # FIXME: be sure that sc_ana_vars and time_path are always present
-        if state.sc_ana_vars.time_path:
-            self._simgrG.nodes[sim_state_id]["step_time"] = state.sc_ana_vars.time_path[-1][1]
-
-        if hasattr(state.ozy_ana_vars, "buffers_boundaries"):
-            self._simgrG.nodes[sim_state_id]["buffers_boundaries"] = copy.deepcopy(state.ozy_ana_vars.buffers_boundaries)
 
         # This can be heavy
         if state.addr != RET_ADDR:
