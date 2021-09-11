@@ -14,6 +14,7 @@ A collection of exploration techniques written by the community
 ## Documentation :book:
 * [docs.angr.op](https://docs.angr.io/) - Official angr general documentatoin website.
 * [angr.io](http://angr.io/api-doc/angr.html) - Official angr API documentation.
+* [Intro to Binary Analysis with Z3 and angr](https://github.com/FSecureLABS/z3_and_angr_binary_analysis_workshop) - FSecureLABS workshop on using Z3 and the angr framework.
 
 ## Projects :rocket:
 
