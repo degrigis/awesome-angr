@@ -34,6 +34,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [angr-blog](https://angr.io/) - Official angr blog.
 * [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/) - A walk-through of the ReachingDefinition analysis built-in in angr.
 * [shellphish-phrack](http://phrack.org/papers/cyber_grand_shellphish.html) - Phrack article on [Mechaphish](https://github.com/mechaphish), the AEG system based on angr that got 3rd place at the CGC.
+* [angr-tutorial](https://blog.notso.pro/2019-03-20-angr-introduction-part0/) - Introduction to angr - baby steps in symbolic execution.
 
 ## Papers :page_with_curl:
 
