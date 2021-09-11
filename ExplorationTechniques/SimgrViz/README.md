@@ -8,7 +8,7 @@ Node information can be enriched with attributes of the state for a post-mortem 
 
 *HINT*: Plug this ET as the last ET of your SimulationManager.
 
-Do dump the .dot file use
+To dump the .dot file use
 
 ```
 import networkx as nx
