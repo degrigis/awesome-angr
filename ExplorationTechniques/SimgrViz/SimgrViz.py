@@ -27,7 +27,7 @@ class SimgrViz(ExplorationTechnique):
     This is a DEBUG ONLY technique that should never be used in production.
     '''
     def __init__(self, cfg=None):
-        super(SimgrDebugger, self).__init__()
+        super(SimgrViz, self).__init__()
         self._simgrG = networkx.DiGraph()
         self.cfg = cfg
         # Boolean guard to understand if this is the initial state or not.
