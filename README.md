@@ -27,7 +27,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [Mechaphish](https://github.com/mechaphish) - AEG system for CGC.
 * [angr-static-analysis-for-vuzzer64](https://github.com/ash09/angr-static-analysis-for-vuzzer64) - angr-based static analysis module for Vuzzer.
 * [FirmXRay-angr](https://github.com/ucsb-seclab/monolithic-firmware-collection/tree/master/utils/firmxray) - An angr version of the base address detection analysis implemented in [FirmXRay](https://github.com/OSUSecLab/FirmXRay).
-
+* [MemSight](https://github.com/season-lab/memsight) - Rethinking Pointer Reasoning in Symbolic Execution.
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/) - Official angr blog.
 * [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/) - A walk-through of the ReachingDefinition analysis built-in in angr.
@@ -51,6 +51,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2019 | [BinTrimmer: Towards Static Binary Debloating Through Abstract Interpretation](https://sites.cs.ucsb.edu/~chris/research/doc/dimva19_bintrimmer.pdf)
 | 2019 | [Sleak: Automating Address Space Layout Derandomization](https://par.nsf.gov/servlets/purl/10155109)
 | 2018 | [HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security](https://sites.cs.ucsb.edu/~chris/research/doc/usenix18_heaphopper.pdf)
+| 2017 | [Rethinking Pointer Reasoning in Symbolic Execution](https://github.com/season-lab/memsight/raw/master/publications/memsight-ase17.pdf)
 | 2017 | [Your Exploit is Mine: Automatic Shellcode Transplant for Remote Exploits](https://www.ieee-security.org/TC/SP2017/papers/579.pdf)
 | 2017 | [BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments](https://sites.cs.ucsb.edu/~vigna/publications/2017_NDSS_Boomerang.pdf)
 | 2017 | [Ramblr: Making Reassembly Great Again](https://sefcom.asu.edu/publications/ramblr-making-reassembly-great-again-ndss2017.pdf)
