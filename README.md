@@ -28,6 +28,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [angr-static-analysis-for-vuzzer64](https://github.com/ash09/angr-static-analysis-for-vuzzer64) - angr-based static analysis module for Vuzzer.
 * [FirmXRay-angr](https://github.com/ucsb-seclab/monolithic-firmware-collection/tree/master/utils/firmxray) - An angr version of the base address detection analysis implemented in [FirmXRay](https://github.com/OSUSecLab/FirmXRay).
 * [MemSight](https://github.com/season-lab/memsight) - Rethinking Pointer Reasoning in Symbolic Execution.
+* [Karonte](https://github.com/ucsb-seclab/karonte) - Detecting Insecure Multi-binary Interactions in Embedded Firmware.
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/) - Official angr blog.
 * [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/) - A walk-through of the ReachingDefinition analysis built-in in angr.
