@@ -100,9 +100,6 @@ class SimgrViz(ExplorationTechnique):
 
         self._simgrG.nodes[sim_state_id]['jumpkind'] = state.history.jumpkind
 
-        if state.loop_state_vars.loop_handler_check_loop:
-            self._simgrG.nodes[sim_state_id]["loop_handler_check_loop"] = str(state.loop_state_vars.loop_handler_check_loop)
-
         # This can be heavy
         if state.addr != RET_ADDR:
             self._simgrG.nodes[sim_state_id]['bb_ins'] = [x.mnemonic for x in state.block().disassembly.insns]
