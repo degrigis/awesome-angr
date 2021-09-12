@@ -1,6 +1,8 @@
+import os
+import psutil
 from angr.exploration_techniques import ExplorationTechnique
 
-class MemLimiter(angr.exploration_techniques.ExplorationTechnique):
+class MemLimiter(ExplorationTechnique):
     def __init__(self, max_mem, drop_errored):
         super(MemLimiter, self).__init__()
         self.max_mem = max_mem
