@@ -102,11 +102,14 @@ class SimgrViz(ExplorationTechnique):
 
         # This can be heavy
         if state.addr != RET_ADDR:
-            self._simgrG.nodes[sim_state_id]['bb_ins'] = [x.mnemonic for x in state.block().disassembly.insns]
-            self._simgrG.nodes[sim_state_id]['bb_size'] = state.block().size
-            if state.callstack.current_function_address:
-                self._simgrG.nodes[sim_state_id]['callstack_curr_func_addr'] = str(hex(state.callstack.current_function_address))
-
+            try:
+                self._simgrG.nodes[sim_state_id]['bb_ins'] = [x.mnemonic for x in state.block().disassembly.insns]
+                self._simgrG.nodes[sim_state_id]['bb_size'] = state.block().size
+                if state.callstack.current_function_address:
+                    self._simgrG.nodes[sim_state_id]['callstack_curr_func_addr'] = str(hex(state.callstack.current_function_address))
+            except Exception:
+                pass
+            
     def _tag_fake_ret(self, state:SimState):
         if state.history.jumpkind == "Ijk_FakeRet":
             self._simgrG.nodes[state.globals["state_signature"]]['call_followed'] = False
