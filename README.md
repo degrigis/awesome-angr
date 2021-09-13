@@ -12,7 +12,7 @@ A collection of exploration techniques written by the community
 * *ExplosionDetector*: stop the analysis when there are too many states or other critical errors happen.
 * *KLEECoverageOptimizeSearch*: KLEE technique to improve coverage. 
 * *KLEERandomSearch*: an ET for random path selection.
-* *LoopExhaustion*: a loop exhaustion search strategy
+* *LoopExhaustion*: a loop exhaustion search strategy.
 * *StochasticSearch*: an ET for stocastic search of active states.
 
 ## Documentation :book:
