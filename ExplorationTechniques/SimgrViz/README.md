@@ -14,7 +14,16 @@ To dump the .dot file use
 import networkx as nx
 
 # G is the networkx graph object 
-nx.write_dot(G,"my_simgr.dot")
+
+[...]
+
+simgr_viz = SimgrViz(cfg=cfg)
+simgr.use_technique(simgr_viz)
+simgr.explore()
+[...]
+
+nx.write_dot(simgr_viz._simgrG,"my_simgr.dot")
+
 ```
 
 Here an example of the graph when visualized with Gephi.
