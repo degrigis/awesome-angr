@@ -1,0 +1,11 @@
+Random path selection. https://hci.stanford.edu/cstr/reports/2008-03.pdf
+
+Maintains a binary tree recording the program path followed for all active processes,
+i.e. the leaves of the tree are the current processes and the internal nodes are places
+where execution forked. Processes are selected by traversing this tree from the root
+and randomly selecting the path to follow at branch points. Therefore when a branch point
+is reached the set of processes in each subtree will have equal probability of being selected,
+regardless of their size.
+
+This is implemented as a Non-Uniform-Random-Search where child nodes inherit parent weight, divided by the number
+of siblings
