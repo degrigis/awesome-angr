@@ -13,8 +13,6 @@ To dump the .dot file use
 ```
 import networkx as nx
 
-# G is the networkx graph object 
-
 [...]
 
 simgr_viz = SimgrViz(cfg=cfg)
