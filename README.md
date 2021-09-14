@@ -32,6 +32,7 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [Mechaphish](https://github.com/mechaphish) - AEG system for CGC.
 * [angr-static-analysis-for-vuzzer64](https://github.com/ash09/angr-static-analysis-for-vuzzer64) - angr-based static analysis module for Vuzzer.
 * [FirmXRay-angr](https://github.com/ucsb-seclab/monolithic-firmware-collection/tree/master/utils/firmxray) - An angr version of the base address detection analysis implemented in [FirmXRay](https://github.com/OSUSecLab/FirmXRay).
+* [IVTSpotter](https://github.com/ucsb-seclab/monolithic-firmware-collection/blob/master/utils/ivt_spotter/spot_ivt.py) - An IVT Spotter for monolithic ARM firmware images.
 * [MemSight](https://github.com/season-lab/memsight) - Rethinking Pointer Reasoning in Symbolic Execution.
 * [Karonte](https://github.com/ucsb-seclab/karonte) - Detecting Insecure Multi-binary Interactions in Embedded Firmware.
 ## Blogposts :newspaper:
