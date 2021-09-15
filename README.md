@@ -51,6 +51,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2021 | [SyML: Guiding Symbolic Execution Toward Vulnerable States Through Pattern Learning](https://conand.me/publications/ruaro-syml-2021.pdf)
 | 2021 | [DIANE: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices](https://conand.me/publications/redini-diane-2021.pdf)
 | 2021 | [Boosting symbolic execution via constraint solving time prediction (experience paper)](https://dl.acm.org/doi/10.1145/3460319.3464813)
+| 2020 | [DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 | 2020 | [Towards Constant-Time Foundations for the New Spectre Era](https://cseweb.ucsd.edu/~cdisselk/papers/ct-foundations.pdf)
 | 2020 | [Symbion: Interleaving Symbolic with Concrete Execution](https://sites.cs.ucsb.edu/~vigna/publications/2020_CNS_Symbion.pdf) |
 | 2020 | [KARONTE: Detecting Insecure Multi-binary Interactions in Embedded Firmware](https://www.badnack.it/static/papers/University/karonte.pdf) | 
