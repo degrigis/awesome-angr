@@ -46,7 +46,7 @@ def spw_cli():
 
 class HeartBeat(ExplorationTechnique):
 
-    def __init__(self, beat_interval=1):
+    def __init__(self, beat_interval=100):
         super(HeartBeat, self).__init__()
         self.stop_heart_beat_file = "/tmp/stop_heartbeat.txt"
         self.beat_interval = beat_interval
