@@ -14,6 +14,7 @@ A collection of exploration techniques written by the community
 * *KLEERandomSearch*: an ET for random path selection.
 * *LoopExhaustion*: a loop exhaustion search strategy.
 * *StochasticSearch*: an ET for stocastic search of active states.
+* *HeartBeat*: An exploration technique to make sure symbolic execution is alive and provides some utility to gently hijack into the DSE while it is running.
 
 ## Documentation :book:
 * [docs.angr.op](https://docs.angr.io/) - Official angr general documentatoin website.
