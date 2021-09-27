@@ -60,6 +60,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2020 | [KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/system/files/sec20summer_chen-weiteng_prepub.pdf)
 | 2019 | [BinTrimmer: Towards Static Binary Debloating Through Abstract Interpretation](https://sites.cs.ucsb.edu/~chris/research/doc/dimva19_bintrimmer.pdf)
 | 2019 | [Sleak: Automating Address Space Layout Derandomization](https://par.nsf.gov/servlets/purl/10155109)
+| 2019 | [Time and Order: Towards Automatically Identifying Side-Channel Vulnerabilities in Enclave Binaries](https://www.usenix.org/conference/raid2019/presentation/wang-wubing)
 | 2018 | [HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security](https://sites.cs.ucsb.edu/~chris/research/doc/usenix18_heaphopper.pdf)
 | 2018 | [Efficient Extraction of Malware Signatures Through System Calls and Symbolic Execution: An Experience Report](https://hal.inria.fr/hal-01954483/document)
 | 2017 | [Rethinking Pointer Reasoning in Symbolic Execution](https://github.com/season-lab/memsight/raw/master/publications/memsight-ase17.pdf)
