@@ -64,6 +64,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2018 | [HeapHopper: Bringing Bounded Model Checking to Heap Implementation Security](https://sites.cs.ucsb.edu/~chris/research/doc/usenix18_heaphopper.pdf)
 | 2018 | [Efficient Extraction of Malware Signatures Through System Calls and Symbolic Execution: An Experience Report](https://hal.inria.fr/hal-01954483/document)
 | 2018 | [Dynamic Path Pruning in Symbolic Execution](https://www.csie.ntu.edu.tw/~hchsiao/pub/2018_IEEE_DSC.pdf)
+| 2018 | [On Benchmarking the Capability of Symbolic Execution Tools with Logic Bombs](https://arxiv.org/pdf/1712.01674.pdf)
 | 2017 | [Rethinking Pointer Reasoning in Symbolic Execution](https://github.com/season-lab/memsight/raw/master/publications/memsight-ase17.pdf)
 | 2017 | [Your Exploit is Mine: Automatic Shellcode Transplant for Remote Exploits](https://www.ieee-security.org/TC/SP2017/papers/579.pdf)
 | 2017 | [BOOMERANG: Exploiting the Semantic Gap in Trusted Execution Environments](https://sites.cs.ucsb.edu/~vigna/publications/2017_NDSS_Boomerang.pdf)
