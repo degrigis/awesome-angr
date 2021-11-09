@@ -49,6 +49,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 
 | Year       | Paper     | 
 | :------------- | :----------: | 
+| 2022 | [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf)
 | 2021 | [Jetset: Targeted Firmware Rehosting for Embedded Systems](https://www.usenix.org/system/files/sec21fall-johnson.pdf)
 | 2021 | [SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://www.portokalidis.net/files/sok86disas_oakland21.pdf)
 | 2021 | [SyML: Guiding Symbolic Execution Toward Vulnerable States Through Pattern Learning](https://conand.me/publications/ruaro-syml-2021.pdf)
