@@ -62,6 +62,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 | 2020 | [Device-agnostic Firmware Execution is Possible: A Concolic Execution Approach for Peripheral Emulation](https://dl.acm.org/doi/10.1145/3427228.3427280) |
 | 2020 | [KOOBE: Towards Facilitating Exploit Generation of Kernel Out-Of-Bounds Write Vulnerabilities](https://www.usenix.org/system/files/sec20summer_chen-weiteng_prepub.pdf)
 | 2020 | [BugMiner: Mining the Hard-to-Reach Software Vulnerabilities through the Target-Oriented Hybrid Fuzzer](https://www.mdpi.com/2079-9292/10/1/62/pdf)
+| 2019 | [Enhancing Symbolic Execution by Machine Learning Based Solver Selection](https://www.csie.ntu.edu.tw/~hchsiao/pub/2019_BAR.pdf)
 | 2019 | [BinTrimmer: Towards Static Binary Debloating Through Abstract Interpretation](https://sites.cs.ucsb.edu/~chris/research/doc/dimva19_bintrimmer.pdf)
 | 2019 | [Sleak: Automating Address Space Layout Derandomization](https://par.nsf.gov/servlets/purl/10155109)
 | 2019 | [Time and Order: Towards Automatically Identifying Side-Channel Vulnerabilities in Enclave Binaries](https://www.usenix.org/conference/raid2019/presentation/wang-wubing)
