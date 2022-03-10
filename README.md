@@ -49,6 +49,7 @@ Here a collection of papers which used or whose project is based on the angr fra
 
 | Year       | Paper     | 
 | :------------- | :----------: | 
+| 2022 | [Heapster: Analyzing the Security of Dynamic Allocators for Monolithic Firmware Images](https://degrigis.github.io/bins/heapster.pdf)
 | 2022 | [Ferry: State-Aware Symbolic Execution for Exploring State-Dependent Program Paths](https://www.usenix.org/system/files/sec22summer_zhou-shunfan.pdf)
 | 2022 | [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf)
 | 2021 | [Jetset: Targeted Firmware Rehosting for Embedded Systems](https://www.usenix.org/system/files/sec21fall-johnson.pdf)
