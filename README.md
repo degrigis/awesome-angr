@@ -36,6 +36,9 @@ List of academic/not-acadamic projects based on angr which code is open source.
 * [IVTSpotter](https://github.com/ucsb-seclab/monolithic-firmware-collection/blob/master/utils/ivt_spotter/spot_ivt.py) - An IVT Spotter for monolithic ARM firmware images.
 * [MemSight](https://github.com/season-lab/memsight) - Rethinking Pointer Reasoning in Symbolic Execution.
 * [Karonte](https://github.com/ucsb-seclab/karonte) - Detecting Insecure Multi-binary Interactions in Embedded Firmware.
+* [BootStomp](https://github.com/ucsb-seclab/BootStomp) - A bootloader vulnerability finder.
+* [SaTC](https://github.com/NSSL-SJTU/SaTC/) - A prototype of Shared-keywords aware Taint Checking(SaTC), a static analysis method that tracks user input between front-end and back-end for vulnerability discovery effectively and efficiently.
+* [Arbiter](https://github.com/jkrshnmenon/arbiter) - Arbiter is a combination of static and dynamic analyses, built on top of angr, that can be used to detect some vulnerability classes.
 ## Blogposts :newspaper:
 * [angr-blog](https://angr.io/) - Official angr blog.
 * [A reaching definition engine for binary analysis built-in in angr.](https://degrigis.github.io/posts/angr_rd/) - A walk-through of the ReachingDefinition analysis built-in in angr.
@@ -50,12 +53,14 @@ Here a collection of papers which used or whose project is based on the angr fra
 | Year       | Paper     | 
 | :------------- | :----------: | 
 | 2022 | [Heapster: Analyzing the Security of Dynamic Allocators for Monolithic Firmware Images](https://degrigis.github.io/bins/heapster.pdf)
+| 2022 | [Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs](https://www.s3.eurecom.fr/docs/usenixsec22_arbiter.pdf)
 | 2022 | [Ferry: State-Aware Symbolic Execution for Exploring State-Dependent Program Paths](https://www.usenix.org/system/files/sec22summer_zhou-shunfan.pdf)
 | 2022 | [Fuzzware: Using Precise MMIO Modeling for Effective Firmware Fuzzing](https://sites.cs.ucsb.edu/~vigna/publications/2022_USENIXSecurity_Fuzzware.pdf)
 | 2021 | [Jetset: Targeted Firmware Rehosting for Embedded Systems](https://www.usenix.org/system/files/sec21fall-johnson.pdf)
 | 2021 | [SoK: All You Ever Wanted to Know About x86/x64 Binary Disassembly But Were Afraid to Ask](https://www.portokalidis.net/files/sok86disas_oakland21.pdf)
 | 2021 | [SyML: Guiding Symbolic Execution Toward Vulnerable States Through Pattern Learning](https://conand.me/publications/ruaro-syml-2021.pdf)
 | 2021 | [DIANE: Identifying Fuzzing Triggers in Apps to Generate Under-constrained Inputs for IoT Devices](https://conand.me/publications/redini-diane-2021.pdf)
+| 2021 | [Sharing More and Checking Less: Leveraging Common Input Keywords to Detect Bugs in Embedded Systems](https://www.usenix.org/system/files/sec21fall-chen-libo.pdf)
 | 2021 | [Boosting symbolic execution via constraint solving time prediction (experience paper)](https://dl.acm.org/doi/10.1145/3460319.3464813)
 | 2020 | [DICE: Automatic Emulation of DMA Input Channels for Dynamic Firmware Analysis](https://arxiv.org/pdf/2007.01502.pdf)
 | 2020 | [Towards Constant-Time Foundations for the New Spectre Era](https://cseweb.ucsd.edu/~cdisselk/papers/ct-foundations.pdf)
